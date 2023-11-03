@@ -8,10 +8,10 @@ export default function Navbar() {
     <nav className="navbar">
         <Brand/>
         <ul className="nav-list">
-            <li><a style={ {color: "white"} } href="#">Inicio</a></li>
-            <li><a style={ {color: "white"} } href="#">Productos</a></li>
-            <li><a style={ {color: "white"} } href="#">Nosotros</a></li>
-            <li><a style={ {color: "white"} } href="#">Contacto</a></li>
+            <li><a className="nav-list__a" href="#">Inicio</a></li>
+            <li><a className="nav-list__a" href="#">Productos</a></li>
+            <li><a className="nav-list__a" href="#">Nosotros</a></li>
+            <li><a className="nav-list__a" href="#">Contacto</a></li>
         </ul>
         <CartWidget/>
     </nav>

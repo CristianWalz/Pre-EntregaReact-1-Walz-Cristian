@@ -16,14 +16,35 @@
     display: flex;
     gap: 12px;
     list-style: none;
+    
+    .nav-list__a {
+        color: white;
+        text-decoration: none;
+    }
 }
 .ItemListContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: lightgrey;
+    background-color: #8d99ae;
     font-size: 1.5rem;
     width: 100%;
     height: 200px;
+}
+
+.container-cart {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    .container-cart__icon {
+        color: white;
+        width: 25px;
+        height: 25px;
+    }
+    .container-cart__button {
+        width: 25px;
+        height: 25px;
+    }
 }
